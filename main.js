@@ -44,8 +44,10 @@ else {
 
 const marry = function(person,person1){
   person.married= true,
-  person1.married=true
+  person1.married=true,
 
+  person.spouseName =getFullName(person1),
+  person1.spouseName = getFullName(person)
 }
 
 // Our code here. Don't touch!
