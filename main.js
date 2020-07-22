@@ -18,20 +18,31 @@ return `${person.firstName} ${person.lastName}`
 /*---*/
 
 const setFirstName = function(person, newName){
-return person.firstName = newName;
+person.firstName = newName;
 }
 
 /*---*/
 
 const setAge = function(person, newAge){
-return person.age = newAge;
+person.age = newAge;
 }
 
 /*---*/
 
-const giveBirthday = function(person, birthday){
-return person.age = person.age + 1 
+const giveBirthday = function(person){
+if('age' in person){
+  person.age = person.age + 1 
 }
+else {
+  person.age = 1
+}
+
+}
+
+
+/*---*/
+
+
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
