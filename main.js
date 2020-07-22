@@ -1,6 +1,7 @@
 // Your code here.
-
-
+const getFirstName = function(person){
+return person.firstName
+}
 
 
 
