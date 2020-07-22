@@ -14,6 +14,13 @@ return person.lastName
 const getFullName = function(person){
 return `${person.firstName} ${person.lastName}` 
 }
+
+/*---*/
+
+const setFirstName = function(person, newName){
+return person.firstName = newName;
+}
+
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
