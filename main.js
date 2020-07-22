@@ -50,6 +50,14 @@ const marry = function(person,person1){
   person1.spouseName = getFullName(person)
 }
 
+/*---*/
+
+const divorce =function(person, person1){
+person.married = false,
+person1.married = false
+}
+
+
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
