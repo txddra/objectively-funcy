@@ -21,6 +21,11 @@ const setFirstName = function(person, newName){
 return person.firstName = newName;
 }
 
+/*---*/
+
+const setAge = function(person, newAge){
+return person.age = newAge;
+}
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
