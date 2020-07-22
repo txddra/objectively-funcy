@@ -9,6 +9,11 @@ const getLastName = function(person){
 return person.lastName
 }
 
+/*---*/
+
+const getFullName = function(person){
+return `${person.firstName} ${person.lastName}` 
+}
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
   getFirstName = undefined
