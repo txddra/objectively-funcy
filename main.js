@@ -54,7 +54,11 @@ const marry = function(person,person1){
 
 const divorce =function(person, person1){
 person.married = false,
-person1.married = false
+person1.married = false,
+
+//using "delete"
+delete person.spouseName,
+delete person1.spouseName
 }
 
 
