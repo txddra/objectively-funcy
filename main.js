@@ -42,6 +42,11 @@ else {
 
 /*---*/
 
+const marry = function(person,person1){
+  person.married= true,
+  person1.married=true
+
+}
 
 // Our code here. Don't touch!
 if (typeof getFirstName === 'undefined') {
